@@ -1,0 +1,31 @@
+.transactionHistory {
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-collapse: collapse;
+}
+
+.header {
+  color: white;
+  background-color: #02bad5;
+}
+
+.columnName {
+  padding: 10px;
+  min-width: 200px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  border: 1px solid white;
+}
+
+.row:nth-child(2n) {
+  background-color: #eaeff2;
+}
+
+.cell {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #dfe2e3;
+}
